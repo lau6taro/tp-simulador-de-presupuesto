@@ -1,23 +1,23 @@
 # Simulador de Presupuestos y Control de Stock
 
-## Descripci¨®n
+## DescripciÃ³n
 
-Aplicaci¨®n de consola desarrollada en Node.js que simula la gesti¨®n de un inventario y la generaci¨®n de presupuestos de venta.
+AplicaciÃ³n de consola desarrollada en Node.js que simula la gestion de un inventario y la generacion de presupuestos de venta.
 
 El sistema permite:
 
-* Consultar un cat¨¢logo de productos.
-* Simular la venta de art¨ªculos.
+* Consultar un catalogo de productos.
+* Simular la venta de articulos.
 * Calcular subtotales.
 * Aplicar descuentos por volumen de compra.
 * Calcular impuestos (IVA).
 * Actualizar el stock disponible.
 
-## Est¨¢ndar de m¨®dulos seleccionado
+## Estandar de modulos seleccionado
 
-El proyecto utiliza el est¨¢ndar **ECMAScript Modules (ESM)** de JavaScript.
+El proyecto utiliza el estandar **ECMAScript Modules (ESM)** de JavaScript.
 
-Por este motivo se configur¨® el archivo `package.json` con:
+Por este motivo se configura el archivo `package.json` con:
 
 ```json
 {
@@ -32,19 +32,18 @@ import ...
 export ...
 ```
 
-para organizar el c¨®digo en m¨®dulos independientes.
+para organizar el codigo en modulos independientes.
 
 ## Estructura del proyecto
 
 ```text
 proyecto-node/
-©¦
-©À©¤©¤ package.json
-©À©¤©¤ index.js
-©À©¤©¤ calculosMatematicos.js
-©À©¤©¤ baseDeDatosSimulada.js
-©À©¤©¤ formateoVisual.js
-©¸©¤©¤ README.md
+ package.json
+ index.js
+ calculosMatematicos.js
+ baseDeDatosSimulada.js
+ formateoVisual.js
+ README.md
 ```
 
 ## Requisitos
@@ -64,7 +63,7 @@ Ingresar al directorio del proyecto:
 cd NOMBRE-REPOSITORIO
 ```
 
-## Instalaci¨®n
+## Instalacion
 
 Este proyecto no posee dependencias externas.
 
@@ -74,7 +73,7 @@ En caso de agregarse dependencias en el futuro, ejecutar:
 npm install
 ```
 
-## Ejecuci¨®n
+## Ejecucion
 
 Ejecutar el programa con:
 
@@ -86,28 +85,28 @@ node index.js
 
 ### Base de datos simulada
 
-Contiene un cat¨¢logo de productos con:
+Contiene un catalogo de productos con:
 
 * ID
 * Nombre
 * Precio
 * Stock disponible
 
-### C¨¢lculos matem¨¢ticos
+### Calculos matematicos
 
 Implementa:
 
-* C¨¢lculo de subtotal
-* Aplicaci¨®n de descuento del 10%
-* C¨¢lculo de IVA (21%)
-* Actualizaci¨®n de stock
+* Calculo de subtotal
+* Aplicacion de descuento del 10%
+* Calculo de IVA (21%)
+* Actualizacion de stock
 
 ### Formateo visual
 
 Implementa:
 
 * Formato de moneda
-* T¨ªtulos y encabezados para la consola
+* Titulos y encabezados para la consola
 
 ### Programa principal
 
